@@ -1,0 +1,381 @@
+{"level":"info","time":"2025-03-17T21:44:12+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-17T21:44:12+07:00","message":"Database connected successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-17T21:44:18+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","time":"2025-03-17T21:54:39+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-17T21:54:39+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-18T04:22:03+07:00","message":"Zerolog initiated successfully"}
+{"level":"fatal","error":"dial tcp [::1]:3307: connectex: No connection could be made because the target machine actively refused it.","time":"2025-03-18T04:22:03+07:00","message":"Failed to create database"}
+{"level":"info","time":"2025-03-18T04:22:09+07:00","message":"Zerolog initiated successfully"}
+{"level":"fatal","error":"dial tcp [::1]:3307: connectex: No connection could be made because the target machine actively refused it.","time":"2025-03-18T04:22:09+07:00","message":"Failed to create database"}
+{"level":"info","time":"2025-03-18T04:23:11+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T04:23:11+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-18T05:16:27+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T05:16:27+07:00","message":"Database connected successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T05:24:41+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","time":"2025-03-18T05:29:48+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T05:29:48+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-18T05:41:00+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T05:41:00+07:00","message":"Database connected successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T05:41:51+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T05:42:15+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T05:42:21+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T05:42:50+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T05:45:42+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T05:46:16+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T05:54:28+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T05:54:34+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T05:54:41+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T05:55:31+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T05:56:09+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T05:58:45+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T05:59:34+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T06:05:07+07:00","message":"Response Error sent successfully"}
+{"level":"info","time":"2025-03-18T06:05:50+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T06:05:50+07:00","message":"Database connected successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T06:06:03+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T06:06:13+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T06:06:15+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T06:06:26+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"email is already in use","time":"2025-03-18T06:06:37+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"email is already in use","time":"2025-03-18T06:06:42+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":400,"message":"Password must be at least 6 characters","time":"2025-03-18T06:06:52+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T06:06:58+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T06:07:07+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T06:07:10+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T10:13:07+07:00","message":"Response Error sent successfully"}
+{"level":"info","time":"2025-03-18T10:19:59+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T10:19:59+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-18T10:38:31+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T10:38:31+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-18T10:43:34+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T10:43:34+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-18T10:45:40+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T10:45:40+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-18T11:21:02+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T11:21:02+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-18T11:30:48+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T11:30:48+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-18T11:41:11+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T11:41:11+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-18T11:43:20+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T11:43:20+07:00","message":"Database connected successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T11:43:35+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T11:43:47+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T11:43:54+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T11:49:44+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T11:50:16+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T11:50:37+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T11:51:44+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T11:52:13+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T11:52:24+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T11:52:33+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T11:52:38+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T11:53:28+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T11:59:57+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T12:00:10+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:00:26+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:00:34+07:00","message":"Reponse Success sent successfully"}
+{"level":"info","time":"2025-03-18T12:06:39+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T12:06:39+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-18T12:08:14+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T12:08:14+07:00","message":"Database connected successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T12:08:21+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:08:25+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T12:08:31+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:09:00+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:09:28+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:09:42+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:11:59+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:12:54+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T12:13:59+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:14:10+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:24:55+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:30:43+07:00","message":"Response Success sent successfully"}
+{"level":"info","time":"2025-03-18T12:37:06+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T12:37:06+07:00","message":"Database connected successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:37:40+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:38:25+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:42:21+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T12:43:16+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:43:20+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T12:43:34+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T12:43:39+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:44:07+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:44:13+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T12:44:23+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T12:44:28+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T12:44:30+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T12:44:30+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T12:44:31+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T12:44:33+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T12:44:49+07:00","message":"Response Error sent successfully"}
+{"level":"info","time":"2025-03-18T12:45:12+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T12:45:12+07:00","message":"Database connected successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T12:45:21+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T12:45:36+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Authorization header is required","time":"2025-03-18T13:00:53+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T13:02:34+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid token format","time":"2025-03-18T13:03:03+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid token format","time":"2025-03-18T13:03:12+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid token format","time":"2025-03-18T13:03:46+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T13:04:29+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T13:42:48+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T13:49:11+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Authorization header is required","time":"2025-03-18T13:52:28+07:00","message":"Response Error sent successfully"}
+{"level":"info","time":"2025-03-18T13:59:16+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T13:59:16+07:00","message":"Database connected successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T14:15:26+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:15:28+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:16:46+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:18:13+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:19:05+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:19:19+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:19:38+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:19:45+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:20:59+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:21:20+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:21:44+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:23:40+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:23:43+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:26:30+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T14:26:40+07:00","message":"Response Success sent successfully"}
+{"level":"info","time":"2025-03-18T16:31:52+07:00","message":"Zerolog initiated successfully"}
+{"level":"fatal","error":"dial tcp [::1]:3307: connectex: No connection could be made because the target machine actively refused it.","time":"2025-03-18T16:31:52+07:00","message":"Failed to create database"}
+{"level":"info","time":"2025-03-18T16:32:26+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T16:32:26+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-18T16:33:12+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T16:33:12+07:00","message":"Database connected successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:33:23+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T16:33:23+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Authorization header is required","time":"2025-03-18T16:33:45+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T16:33:56+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:38:31+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T16:38:31+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T16:38:35+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"email is already in use","time":"2025-03-18T16:39:49+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T16:40:01+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"email is already in use","time":"2025-03-18T16:40:04+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:50:53+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:51:07+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:51:25+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:51:26+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:51:26+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:51:26+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:51:26+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:51:26+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:51:27+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:51:27+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:52:07+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:54:39+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:54:44+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:54:45+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:54:45+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:54:45+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T16:54:51+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:54:59+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:58:03+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T16:59:48+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T16:59:48+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:04:31+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:05:58+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:06:26+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T17:06:36+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:06:36+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T17:06:48+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T17:06:55+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:06:55+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"Failed to delete user","time":"2025-03-18T17:09:43+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"Failed to delete user","time":"2025-03-18T17:09:45+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T17:09:54+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:09:54+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T17:09:57+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T17:10:02+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:10:02+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T17:11:42+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T17:11:47+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:12:01+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:13:21+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:13:46+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:14:01+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:14:12+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T17:15:14+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:15:17+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:19:52+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"Failed to delete user","time":"2025-03-18T17:19:54+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:19:56+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"Failed to delete user","time":"2025-03-18T17:19:58+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:20:00+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T17:20:06+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:20:06+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T17:20:30+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:20:32+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T17:20:34+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:20:36+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-18T17:25:24+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:25:28+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T17:27:23+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T17:27:28+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T17:27:31+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T17:27:32+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T17:27:35+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:27:35+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-18T17:31:10+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:31:13+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T17:31:22+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T17:31:25+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:31:26+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:33:25+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:34:55+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T17:34:57+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T17:35:03+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:35:04+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T17:35:19+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:35:21+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:38:36+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:38:36+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:44:31+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:44:31+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:44:43+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:44:43+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:45:04+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:45:04+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:45:28+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:45:28+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:45:29+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:45:29+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:45:40+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T17:45:44+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:45:46+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T17:47:22+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:47:23+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T17:47:27+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:47:28+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T17:51:52+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T17:52:02+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T17:52:19+07:00","message":"Response Success sent successfully"}
+{"level":"info","time":"2025-03-18T17:57:58+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-18T17:57:58+07:00","message":"Database connected successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T18:01:39+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"Failed to delete user","time":"2025-03-18T18:01:43+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T18:01:52+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:03:59+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T18:04:25+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:04:27+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T18:06:58+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:07:03+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T18:07:13+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:07:19+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:07:19+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:10:17+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:10:30+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T18:10:36+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:10:38+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:10:38+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T18:10:49+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:10:50+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T18:11:06+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:11:08+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:11:14+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T18:11:20+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:11:24+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:11:24+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:13:42+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:13:45+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:13:48+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:13:48+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T18:13:51+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:13:52+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:18:27+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T18:18:45+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:18:50+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:18:50+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:19:17+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:19:34+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T18:19:37+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:19:37+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:19:54+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:19:59+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T18:20:12+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:20:16+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:20:16+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:21:45+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T18:21:49+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:21:49+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:22:29+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:23:15+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T18:23:21+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:23:25+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:23:25+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T18:23:27+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:23:27+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:27:40+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:27:45+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T18:27:53+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:27:55+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:27:55+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:28:26+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:28:26+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T18:28:35+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:33:40+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T18:33:45+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:33:49+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:33:55+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:34:53+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:34:59+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:35:08+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:36:20+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:37:44+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:42:22+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T18:42:36+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:42:38+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:43:23+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:45:23+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:45:23+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T18:49:08+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:49:08+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T18:49:22+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:49:27+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:49:27+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-18T18:49:44+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:49:44+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:49:49+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T18:49:56+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T18:50:01+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T18:50:01+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"email is already in use","time":"2025-03-18T20:01:23+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T20:01:58+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T20:01:59+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"email is already in use","time":"2025-03-18T20:02:18+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T20:02:18+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"email is already in use","time":"2025-03-18T20:03:07+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T20:03:37+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":404,"message":"User not found","time":"2025-03-18T20:06:41+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":404,"message":"User not found","time":"2025-03-18T20:08:12+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T20:16:24+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"email is already in use","time":"2025-03-18T20:16:28+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T20:16:43+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":500,"message":"email is already in use","time":"2025-03-18T20:17:20+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T20:17:38+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":404,"message":"User not found","time":"2025-03-18T20:28:47+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T20:29:04+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-18T20:29:22+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-18T20:32:00+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T20:36:53+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T20:37:11+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T20:37:27+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T20:37:34+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":404,"message":"User not found","time":"2025-03-18T20:37:52+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User retrieved successfully","time":"2025-03-18T20:38:12+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T20:38:28+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-18T20:42:13+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid or expired token","time":"2025-03-18T20:50:16+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-18T20:53:22+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-18T20:53:33+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-18T20:53:37+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T20:53:38+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-18T20:54:08+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T20:54:08+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T20:54:13+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T20:54:13+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T20:54:17+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T20:54:17+07:00","message":"Response Success sent successfully"}

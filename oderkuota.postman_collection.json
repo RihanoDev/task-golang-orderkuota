@@ -1,0 +1,562 @@
+{
+	"info": {
+		"_postman_id": "0c189319-e163-43ab-a011-5343666f2a22",
+		"name": "oderkuota",
+		"description": "Dokumentasi API untuk technical test order kuota",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "18198059"
+	},
+	"item": [
+		{
+			"name": "Public",
+			"item": [
+				{
+					"name": "register",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Response status code is 201\", function () {\r",
+									"  pm.response.to.have.status(201);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response time is less than 300ms\", function () {\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(300);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response schema validation for required fields and data types\", function () {\r",
+									"  const responseData = pm.response.json();\r",
+									"  \r",
+									"  pm.expect(responseData).to.be.an('object');\r",
+									"  pm.expect(responseData).to.have.property('id').that.is.a('string');\r",
+									"  pm.expect(responseData).to.have.property('username').that.is.a('string');\r",
+									"  pm.expect(responseData).to.have.property('email').that.is.a('string');\r",
+									"  pm.expect(responseData).to.have.property('createdAt').that.is.a('string');\r",
+									"  pm.expect(responseData).to.have.property('updatedAt').that.is.a('string');\r",
+									"});\r",
+									"var template = `\r",
+									"<style type=\"text/css\">\r",
+									"    .tftable {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse;}\r",
+									"    .tftable th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;text-align:left;}\r",
+									"    .tftable tr {background-color:#ffffff;}\r",
+									"    .tftable td {font-size:14px;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;}\r",
+									"    .tftable tr:hover {background-color:#e0ffff;}\r",
+									"</style>\r",
+									"\r",
+									"<table class=\"tftable\" border=\"1\">\r",
+									"    <tr>\r",
+									"        <th>Response Field 1</th>\r",
+									"        <th>Response Field 2</th>\r",
+									"        <th>Response Field 3</th>\r",
+									"        <!-- Add more table headers as needed -->\r",
+									"    </tr>\r",
+									"    \r",
+									"    {{#each response}}\r",
+									"        <tr>\r",
+									"            <td>{{field1}}</td>\r",
+									"            <td>{{field2}}</td>\r",
+									"            <td>{{field3}}</td>\r",
+									"            <!-- Add more table cells as needed -->\r",
+									"        </tr>\r",
+									"    {{/each}}\r",
+									"</table>\r",
+									"`;\r",
+									"\r",
+									"function constructVisualizerPayload() {\r",
+									"    return {response: pm.response.json()}\r",
+									"}\r",
+									"\r",
+									"pm.visualizer.set(template, constructVisualizerPayload());\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGYzNzdhMjQtMWQ3Ny00Mjg4LThjOTktYmE2MmM2MzY0YTAyIiwiZXhwIjoxNzQyMTYwMDcxLCJpYXQiOjE3NDIxNTgyNzF9.nsfGl2sCKm5TNsgz2msAADz84Y54lidCviHeqa6N438"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{   \r\n    \"name\" : \"test\",\r\n    \"email\" : \"actual@gmail.com\",\r\n    \"password\" : \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:9090/register",
+						"description": "## **POST /register**\n\nEndpoint ini memungkinkan klien untuk mendaftarkan pengguna baru.\n\n### **Request Body:**\n\n- `name` (string): Nama pengguna.\n    \n- `email` (string): Alamat email pengguna.\n    \n- `password` (string): Kata sandi untuk akun pengguna.\n    \n\n### **Response:**\n\n**Status:** `201 Created`  \n**Content-Type:** `application/json`\n\n<img src=\"https://content.pstmn.io/db29a2a9-2aad-40de-8a23-5deea3e22d57/aW1hZ2UucG5n\" alt=\"Test%20result\" height=\"264\" width=\"1531\">"
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Response status code is 200\", function () {\r",
+									"    pm.expect(pm.response.code).to.equal(200);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Content-Type header is application/json\", function () {\r",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Data object structure is valid\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"    \r",
+									"    pm.expect(responseData).to.be.an('object');\r",
+									"    pm.expect(responseData.data).to.exist.and.to.be.an('object');\r",
+									"    pm.expect(responseData.data.user).to.exist.and.to.be.an('object');\r",
+									"    pm.expect(responseData.data.user.id).to.exist.and.to.be.a('string');\r",
+									"    pm.expect(responseData.data.user.name).to.exist.and.to.be.a('string');\r",
+									"    pm.expect(responseData.data.user.email).to.exist.and.to.be.a('string');\r",
+									"    pm.expect(responseData.data.user.created_at).to.exist.and.to.be.a('string');\r",
+									"    pm.expect(responseData.data.user.updated_at).to.exist.and.to.be.a('string');\r",
+									"    pm.expect(responseData.data.access_token).to.exist.and.to.be.a('string');\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Access token is present in the response\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"    \r",
+									"    pm.expect(responseData.data.access_token).to.exist;\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"var template = `\r",
+									"<style type=\"text/css\">\r",
+									"    .tftable {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse;}\r",
+									"    .tftable th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;text-align:left;}\r",
+									"    .tftable tr {background-color:#ffffff;}\r",
+									"    .tftable td {font-size:14px;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;}\r",
+									"    .tftable tr:hover {background-color:#e0ffff;}\r",
+									"</style>\r",
+									"\r",
+									"<table class=\"tftable\" border=\"1\">\r",
+									"    <tr>\r",
+									"        <th>ID</th>\r",
+									"        <th>Name</th>\r",
+									"        <th>Email</th>\r",
+									"        <th>Created At</th>\r",
+									"        <th>Updated At</th>\r",
+									"        <th>Access Token</th>\r",
+									"    </tr>\r",
+									"    <tr>\r",
+									"        <td>{{response.data.user.id}}</td>\r",
+									"        <td>{{response.data.user.name}}</td>\r",
+									"        <td>{{response.data.user.email}}</td>\r",
+									"        <td>{{response.data.user.created_at}}</td>\r",
+									"        <td>{{response.data.user.updated_at}}</td>\r",
+									"        <td>{{response.data.access_token}}</td>\r",
+									"    </tr>\r",
+									"</table>\r",
+									"`;\r",
+									"\r",
+									"function constructVisualizerPayload() {\r",
+									"    return {response: pm.response.json()}\r",
+									"}\r",
+									"\r",
+									"pm.visualizer.set(template, constructVisualizerPayload());"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"actual@gmail.com\",\r\n    \"password\" : \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:9090/login",
+						"description": "## **POST /login**\n\nEndpoint ini memungkinkan pengguna untuk masuk dan mendapatkan token akses.\n\n### **Request Body:**\n\n- `email` (string): Alamat email pengguna.\n    \n- `password` (string): Kata sandi pengguna.\n    \n\n### **Response:**\n\nRespon akan dikembalikan dalam format JSON dengan skema berikut:\n\n``` json\n{\n    \"type\": \"object\",\n    \"properties\": {\n        \"status\": {\"type\": \"string\"},\n        \"code\": {\"type\": \"integer\"},\n        \"message\": {\"type\": \"string\"},\n        \"data\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"user\": {\n                    \"type\": \"object\",\n                    \"properties\": {\n                        \"id\": {\"type\": \"string\"},\n                        \"name\": {\"type\": \"string\"},\n                        \"email\": {\"type\": \"string\"},\n                        \"created_at\": {\"type\": \"string\"},\n                        \"updated_at\": {\"type\": \"string\"}\n                    }\n                },\n                \"access_token\": {\"type\": \"string\"}\n            }\n        }\n    }\n}\n\n ```\n\n<img src=\"https://content.pstmn.io/0d25535f-0e61-4899-8eb8-454b54b9bfba/aW1hZ2UucG5n\" alt=\"Test%20Result\" height=\"271\" width=\"1522\">"
+					},
+					"response": []
+				}
+			],
+			"description": "Fitur yang dapat digunakan sebelum mendapatkan token\n\nMethod (POST)\n\nHeader:`Content-Type: application/json`\n\nBody: JSON"
+		},
+		{
+			"name": "Authorized CRUD",
+			"item": [
+				{
+					"name": "GetAllUsers",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Response status code is 200\", function () {\r",
+									"    pm.expect(pm.response.code).to.equal(200);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response has the required fields - ID, Name, Email, Password, CreatedAt, UpdatedAt\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"    \r",
+									"    pm.expect(responseData).to.be.an('object');\r",
+									"    pm.expect(responseData.data).to.be.an('array').and.not.empty;\r",
+									"    \r",
+									"    responseData.data.forEach(function(user) {\r",
+									"        pm.expect(user).to.have.property('ID');\r",
+									"        pm.expect(user).to.have.property('Name');\r",
+									"        pm.expect(user).to.have.property('Email');\r",
+									"        pm.expect(user).to.have.property('Password');\r",
+									"        pm.expect(user).to.have.property('CreatedAt');\r",
+									"        pm.expect(user).to.have.property('UpdatedAt');\r",
+									"    });\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Email is in a valid format\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"    \r",
+									"    pm.expect(responseData.data).to.be.an('array');\r",
+									"    responseData.data.forEach(function(user) {\r",
+									"        pm.expect(user.Email).to.be.a('string').and.to.match(/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/, \"Email should be in a valid format\");\r",
+									"    });\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:9090/api/users",
+						"description": "## **GET /api/users**\n\nEndpoint ini digunakan untuk mengambil daftar pengguna.\n\n### **Request:**\n\nPermintaan ini **tidak memerlukan parameter**.\n\n### **Response:**\n\nRespon akan dikembalikan dalam format JSON dengan skema berikut:\n\n``` json\n{\n    \"type\": \"object\",\n    \"properties\": {\n        \"status\": {\n            \"type\": \"string\"\n        },\n        \"code\": {\n            \"type\": \"integer\"\n        },\n        \"message\": {\n            \"type\": \"string\"\n        },\n        \"data\": {\n            \"type\": \"array\",\n            \"items\": {\n                \"type\": \"object\",\n                \"properties\": {\n                    \"ID\": {\n                        \"type\": \"string\"\n                    },\n                    \"Name\": {\n                        \"type\": \"string\"\n                    },\n                    \"Email\": {\n                        \"type\": \"string\"\n                    },\n                    \"Password\": {\n                        \"type\": \"string\"\n                    },\n                    \"CreatedAt\": {\n                        \"type\": \"string\"\n                    },\n                    \"UpdatedAt\": {\n                        \"type\": \"string\"\n                    }\n                }\n            }\n        }\n    }\n}\n\n ```\n\n<img src=\"https://content.pstmn.io/a01cf3a7-cacb-4c56-a781-05ca5cb220ec/aW1hZ2UucG5n\" alt=\"Test%20result\" height=\"229\" width=\"1508\">"
+					},
+					"response": []
+				},
+				{
+					"name": "GetUsersByID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Response status code is 404\", function () {\r",
+									"  pm.expect(pm.response.code).to.equal(404);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response has the required fields - status, code, and message\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"    \r",
+									"    pm.expect(responseData).to.be.an('object');\r",
+									"    pm.expect(responseData).to.have.property('status');\r",
+									"    pm.expect(responseData).to.have.property('code');\r",
+									"    pm.expect(responseData).to.have.property('message');\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"// Test to check for response schema validation\r",
+									"pm.test(\"Response schema is valid\", function () {\r",
+									"  var schema = {\r",
+									"    type: \"object\",\r",
+									"    properties: {\r",
+									"      status: { type: \"string\" },\r",
+									"      code: { type: \"number\" },\r",
+									"      message: { type: \"string\" }\r",
+									"    },\r",
+									"    required: [\"status\", \"code\", \"message\"],\r",
+									"  };\r",
+									"\r",
+									"  pm.expect(tv4.validate(pm.response.json(), schema)).to.be.true;\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response content type is application/json\", function () {\r",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response header contains Content-Type\", function () {\r",
+									"    pm.response.to.have.header(\"Content-Type\");\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response status code is 404\", function () {\r",
+									"  pm.expect(pm.response.code).to.equal(404);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response has the required fields - status, code, and message\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"    \r",
+									"    pm.expect(responseData).to.be.an('object');\r",
+									"    pm.expect(responseData).to.have.property('status');\r",
+									"    pm.expect(responseData).to.have.property('code');\r",
+									"    pm.expect(responseData).to.have.property('message');\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:9090/api/users/ac74ad61-febd-4970-93bf-1b52d140ce76",
+						"description": "## **GET /api/users/{userId}**\n\nEndpoint ini mengambil detail pengguna berdasarkan ID pengguna yang diberikan.\n\n### **Request:**\n\nPermintaan ini **tidak memerlukan request body**.\n\n### **Path Parameters:**\n\n- `userId` (string): ID unik pengguna.\n    \n\n### **Response:**\n\nRespon akan dikembalikan dalam format JSON dengan skema berikut:\n\n``` json\n{\n    \"type\": \"object\",\n    \"properties\": {\n        \"status\": {\n            \"type\": \"string\"\n        },\n        \"code\": {\n            \"type\": \"integer\"\n        },\n        \"message\": {\n            \"type\": \"string\"\n        }\n    }\n}\n\n ```\n\n<img src=\"https://content.pstmn.io/24c06e9b-9f7a-4497-b3db-a32eafb55cb4/aW1hZ2UucG5n\" alt=\"Test%20result\" height=\"386\" width=\"1520\">"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateUserByID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Response status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Validate the response body schema for the user object\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"    \r",
+									"    pm.expect(responseData).to.be.an('object');\r",
+									"    pm.expect(responseData.id).to.be.a('string');\r",
+									"    pm.expect(responseData.username).to.be.a('string');\r",
+									"    pm.expect(responseData.email).to.be.a('string');\r",
+									"    pm.expect(responseData.fullName).to.be.a('string');\r",
+									"    pm.expect(responseData.avatar).to.exist;\r",
+									"    pm.expect(responseData.isPublic).to.exist;\r",
+									"});\r",
+									"// Test to validate the response body schema for the user object\r",
+									"pm.test(\"Validate the response body schema for the user object\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"    \r",
+									"    pm.expect(responseData).to.be.an('object');\r",
+									"    pm.expect(responseData.id).to.be.a('string');\r",
+									"    pm.expect(responseData.username).to.be.a('string');\r",
+									"    pm.expect(responseData.email).to.be.a('string');\r",
+									"    pm.expect(responseData.fullName).to.be.a('string');\r",
+									"    pm.expect(responseData.avatar).to.exist;\r",
+									"    pm.expect(responseData.isPublic).to.exist;\r",
+									"});\r",
+									"\r",
+									"// Add a test to check if the response contains a Set-Cookie header\r",
+									"pm.test(\"Valid Set-Cookie header is present\", function() {\r",
+									"    pm.expect(pm.response.headers.has('Set-Cookie')).to.be.true.and.to.include('session_id');\r",
+									"});\r",
+									"\r",
+									"// Add a test to check if the session_id cookie is set to a valid value\r",
+									"pm.test(\"session_id cookie is set to a valid value\", function() {\r",
+									"    var session_id = pm.cookies.get('session_id');\r",
+									"    pm.expect(session_id).to.exist.and.to.be.a('string').and.to.have.lengthOf(32);\r",
+									"});\r",
+									"var template = `\r",
+									"<style type=\"text/css\">\r",
+									"    .tftable {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse;}\r",
+									"    .tftable th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;text-align:left;}\r",
+									"    .tftable tr {background-color:#ffffff;}\r",
+									"    .tftable td {font-size:14px;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;}\r",
+									"    .tftable tr:hover {background-color:#e0ffff;}\r",
+									"</style>\r",
+									"\r",
+									"<table class=\"tftable\" border=\"1\">\r",
+									"    <tr>\r",
+									"        <th>ID</th>\r",
+									"        <th>Name</th>\r",
+									"        <th>Email</th>\r",
+									"        <th>Password</th>\r",
+									"        <th>CreatedAt</th>\r",
+									"        <th>UpdatedAt</th>\r",
+									"    </tr>\r",
+									"    <tr>\r",
+									"        <td>{{response.data.ID}}</td>\r",
+									"        <td>{{response.data.Name}}</td>\r",
+									"        <td>{{response.data.Email}}</td>\r",
+									"        <td>{{response.data.Password}}</td>\r",
+									"        <td>{{response.data.CreatedAt}}</td>\r",
+									"        <td>{{response.data.UpdatedAt}}</td>\r",
+									"    </tr>\r",
+									"</table>\r",
+									"`;\r",
+									"\r",
+									"function constructVisualizerPayload() {\r",
+									"    return {response: pm.response.json()}\r",
+									"}\r",
+									"\r",
+									"pm.visualizer.set(template, constructVisualizerPayload());"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{   \r\n    \"name\" : \"rihano09\",\r\n    \"email\" : \"rizky@gmail.com\",\r\n    \"password\" : \"12345678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:9090/api/users/82e1c36d-f77c-45d7-94ba-4122fa2d9395",
+						"description": "## **PUT /api/users/{userId}**\n\nEndpoint ini mengirimkan permintaan **HTTP PUT** untuk memperbarui informasi pengguna berdasarkan ID yang diberikan.\n\n### **Request Body:**\n\n- `name` (string, wajib): Nama baru pengguna.\n    \n- `email` (string, wajib): Email baru pengguna.\n    \n- `password` (string, wajib): Kata sandi baru pengguna.\n    \n\n### **Response:**\n\nJika permintaan berhasil, respons akan berisi informasi pengguna yang telah diperbarui:\n\n``` json\n{\n    \"status\": \"success\",\n    \"code\": 200,\n    \"message\": \"User updated successfully\",\n    \"data\": {\n        \"ID\": \"82e1c36d-f77c-45d7-94ba-4122fa2d9395\",\n        \"Name\": \"rihano09\",\n        \"Email\": \"rizky@gmail.com\",\n        \"Password\": \"$2a$10$RgrAPz2g9Pyzhqjo865Ive6/DXmzVs2Z4UeItwtKxmuYSDo1jQ3gq\",\n        \"CreatedAt\": \"2025-03-18T13:16:44Z\",\n        \"UpdatedAt\": \"2025-03-18T20:32:00.872266+07:00\"\n    }\n}\n\n ```\n\n<img src=\"https://content.pstmn.io/44406cbc-87c8-4878-b1a3-da32203ec5f0/aW1hZ2UucG5n\" alt=\"Test%20result\" height=\"281\" width=\"1162\">"
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteUserByID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Response status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Content-Type is application/json\", function () {\r",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response has the required fields - status, code, message, and data\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"    \r",
+									"    pm.expect(responseData).to.be.an('object');\r",
+									"    pm.expect(responseData.status).to.exist;\r",
+									"    pm.expect(responseData.code).to.exist;\r",
+									"    pm.expect(responseData.message).to.exist;\r",
+									"    pm.expect(responseData.data).to.exist;\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Status, code, and message properties exist and have correct types\", function () {\r",
+									"  const responseData = pm.response.json();\r",
+									"  \r",
+									"  pm.expect(responseData).to.be.an('object');\r",
+									"  \r",
+									"  pm.expect(responseData.status).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Status should be a non-empty string\");\r",
+									"  pm.expect(responseData.code).to.be.a('number').and.to.satisfy((code) => code >= 0, \"Code should be a non-negative integer\");\r",
+									"  pm.expect(responseData.message).to.be.a('string', \"Message should be a string\");\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:9090/api/users/ac74ad61-febd-4970-93bf-1b52d140ce76",
+						"description": "## **DELETE /api/users/{userId}**\n\nEndpoint ini mengirimkan permintaan **HTTP DELETE** untuk menghapus pengguna berdasarkan ID yang diberikan.\n\n### **Request Body:**\n\nPermintaan ini **tidak memerlukan request body**.\n\n### **Response:**\n\n**Status:** `200 OK`  \n**Content-Type:** `application/json`\n\n``` json\n{\n    \"status\": \"success\",\n    \"code\": 200,\n    \"message\": \"User deleted successfully\",\n    \"data\": null\n}\n\n ```\n\n<img src=\"https://content.pstmn.io/7d805055-3bde-4e25-8e94-a5630f7cb4d6/aW1hZ2UucG5n\" alt=\"Test%20result\" height=\"277\" width=\"1166\">"
+					},
+					"response": []
+				}
+			],
+			"description": "Fitur yang dapat digunakan sesudah mendapatkan token\n\nMethod (GET, PUT, DELETE)\n\nHeader:`Content-Type: application/json & Authorization Bearer`\n\nBody: JSON",
+			"auth": {
+				"type": "bearer",
+				"bearer": {
+					"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYTkwNWZhYmYtMDc2YS00MjkxLTg0YWMtZWU0ZmY1OGRiODdiIiwiZXhwIjoxNzQyMzA2ODMxLCJpYXQiOjE3NDIzMDUwMzF9.41aZxDHS-wefM0ZJUSjBFCo6lBlGG4A3qV8SYYwaLGM"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "BASE_URL",
+			"value": "",
+			"type": "default"
+		}
+	]
+}
