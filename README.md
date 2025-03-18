@@ -84,7 +84,7 @@ DB_NAME= "users"
 JWT_SECRET_KEY = "123"
 SERVER_PORT = "9090"
 ```
-# Jalankan Database Migration
+### Jalankan Database Migration
 
 Proyek ini menggunakan golang-migrate untuk mengelola skema database. Jika belum terinstall, install terlebih dahulu dengan perintah berikut:
 
@@ -133,8 +133,8 @@ UI akan berjalan di [http://localhost:8080](http://localhost:8080)
 
 | Method | Endpoint             | Deskripsi                             |
 |--------|----------------------|---------------------------------------|
-| POST   | /api/auth/login      | Login user dan mendapatkan token      |
-| POST   | /api/auth/register   | Registrasi user baru                  |
+| POST   | /login      | Login user dan mendapatkan token      |
+| POST   | /register   | Registrasi user baru                  |
 
 ## 👤 User Management
 
