@@ -49,26 +49,34 @@ orderkuota/
 
 # ⚙️ Teknologi yang Digunakan
 
-### Backend (Golang)  
-- **Gorilla Mux** - Router untuk Golang  
-- **Golang JWT** - Autentikasi menggunakan JWT  
-- **MySQL Driver** - Koneksi ke database MySQL  
-- **Viper** - Manajemen konfigurasi  
-- **Zerolog** - Logging system  
-- **Godotenv** - Load konfigurasi dari file `.env`  
-- **UUID Generator** - Untuk ID unik pengguna  
-- **Golang Migrate** - Untuk manajemen skema database  
+### Backend (Golang)
+- **Gorilla Mux** - Router untuk Golang
+- **Golang JWT** - Autentikasi menggunakan JWT
+- **MySQL Driver** - Koneksi ke database MySQL
+- **Viper** - Manajemen konfigurasi
+- **Zerolog** - Logging system
+- **Godotenv** - Load konfigurasi dari file `.env`
+- **UUID Generator** - Untuk ID unik pengguna
+- **Golang Migrate** - Untuk manajemen skema database
 
-### Frontend (Vue.js)  
-- **Vue 3** - Framework frontend  
-- **Vue Router** - Manajemen routing  
-- **Vuex** - Manajemen state  
-- **Axios** - HTTP client untuk komunikasi dengan backend  
-- **Bootstrap 5** - Styling UI 
+### Frontend (Vue.js)
+- **Vue 3** - Framework frontend
+- **Vue Router** - Manajemen routing
+- **Vuex** - Manajemen state
+- **Axios** - HTTP client untuk komunikasi dengan backend
+- **Bootstrap 5** - Styling UI
 
 # 🚀 Cara Menjalankan Proyek
 
-## 1️⃣ Setup Backend
+## 1️⃣ Clone Project
+Pastikan Anda telah menginstall **Git**. Untuk meng-clone repository ini, jalankan perintah berikut:
+
+```sh
+git clone https://github.com/RihanoDev/task-golang-orderkuota.git
+cd task-golang-orderkuota
+```
+
+## 2️⃣ Setup Backend
 
 ### 🛠 Prasyarat
 - Install Golang (versi 1.23.4 atau terbaru)
@@ -109,7 +117,7 @@ go run main.go
 ```
 API akan berjalan di [http://localhost:9090](http://localhost:9090)
 
-## 2️⃣ Setup Frontend
+## 3️⃣ Setup Frontend
 
 ### 🛠 Prasyarat
 - Install Node.js (versi terbaru)
