@@ -49,21 +49,22 @@ orderkuota/
 
 # ⚙️ Teknologi yang Digunakan
 
-## Backend (Golang)
-- Gorilla Mux - Router untuk Golang
-- Golang JWT - Autentikasi menggunakan JWT
-- MySQL Driver - Koneksi ke database MySQL
-- Viper - Manajemen konfigurasi
-- Zerolog - Logging system
-- Godotenv - Load konfigurasi dari file .env
-- UUID Generator - Untuk ID unik pengguna
+### Backend (Golang)  
+- **Gorilla Mux** - Router untuk Golang  
+- **Golang JWT** - Autentikasi menggunakan JWT  
+- **MySQL Driver** - Koneksi ke database MySQL  
+- **Viper** - Manajemen konfigurasi  
+- **Zerolog** - Logging system  
+- **Godotenv** - Load konfigurasi dari file `.env`  
+- **UUID Generator** - Untuk ID unik pengguna  
+- **Golang Migrate** - Untuk manajemen skema database  
 
-## Frontend (Vue.js)
-- Vue 3 - Framework frontend
-- Vue Router - Manajemen routing
-- Vuex - Manajemen state
-- Axios - HTTP client untuk komunikasi dengan backend
-- Bootstrap 5 - Styling UI
+### Frontend (Vue.js)  
+- **Vue 3** - Framework frontend  
+- **Vue Router** - Manajemen routing  
+- **Vuex** - Manajemen state  
+- **Axios** - HTTP client untuk komunikasi dengan backend  
+- **Bootstrap 5** - Styling UI 
 
 # 🚀 Cara Menjalankan Proyek
 
@@ -71,18 +72,34 @@ orderkuota/
 
 ### 🛠 Prasyarat
 - Install Golang (versi 1.23.4 atau terbaru)
-- Install MySQL dan buat database orderkuota
+- Install MySQL dan buat database 'users'
 - Buat file `.env` di folder backend/ berdasarkan contoh berikut:
 
 ```plaintext
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=root
-DB_PASS=password
-DB_NAME=orderkuota
-
-JWT_SECRET=mysecretkey
+DB_HOST= "localhost"
+DB_PORT= "yourport"
+DB_USER= "youruser"
+DB_PASS= "yourpassword"
+DB_NAME= "users"
+JWT_SECRET_KEY = "123"
+SERVER_PORT = "9090"
 ```
+# Jalankan Database Migration
+
+Proyek ini menggunakan golang-migrate untuk mengelola skema database. Jika belum terinstall, install terlebih dahulu dengan perintah berikut:
+
+```sh
+go install -tags 'mysql' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
+```
+
+Setelah itu, jalankan migrasi database dengan perintah:
+
+```sh
+cd backend
+migrate -database "mysql://root:password@tcp(localhost:3306)/orderkuota" -path migrations up
+```
+
+Pastikan mengganti username, password MySQL, dan port sesuai dengan kredensial di .env/setup lokal pc.
 
 ### 🚀 Jalankan Backend
 ```sh
@@ -90,7 +107,7 @@ cd backend
 go mod tidy
 go run main.go
 ```
-API akan berjalan di [http://localhost:8080](http://localhost:8080)
+API akan berjalan di [http://localhost:9090](http://localhost:9090)
 
 ## 2️⃣ Setup Frontend
 
@@ -108,7 +125,7 @@ cd frontend
 npm install
 npm run serve
 ```
-UI akan berjalan di [http://localhost:8081](http://localhost:8081)
+UI akan berjalan di [http://localhost:8080](http://localhost:8080)
 
 # 📌 Endpoint API
 
