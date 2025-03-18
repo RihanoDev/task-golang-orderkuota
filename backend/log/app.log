@@ -439,3 +439,27 @@
 {"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-19T05:47:47+07:00","message":"Response Success sent successfully"}
 {"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:47:47+07:00","message":"Response Success sent successfully"}
 {"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:48:05+07:00","message":"Response Success sent successfully"}
+{"level":"info","time":"2025-03-19T05:55:08+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-19T05:55:08+07:00","message":"Database connected successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:55:15+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:55:21+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:55:21+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:55:24+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:55:24+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-19T05:55:30+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:55:30+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:55:33+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:55:33+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-19T05:55:40+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:55:40+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-19T05:55:51+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:55:51+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:55:56+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:55:56+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-19T05:56:13+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:56:13+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:56:16+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:56:19+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:56:19+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:57:02+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:57:07+07:00","message":"Response Success sent successfully"}
