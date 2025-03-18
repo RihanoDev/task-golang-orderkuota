@@ -76,7 +76,7 @@ func (us *UserServiceAdapter) Login(email, password string) (*domain.User, strin
 
 	token, err := utils.GenerateToken(user.ID)
 	if err != nil {
-		return nil, "", fmt.Errorf("Invalid credentials")
+		return nil, "", fmt.Errorf("failed to generate token")
 	}
 
 	user.Password = ""
@@ -115,24 +115,23 @@ func (us *UserServiceAdapter) UpdateUserByID(id string, userData *domain.User) (
 	if userData.Name != "" {
 		existingUser.Name = userData.Name
 	}
+
 	if userData.Email != "" {
 		if !isValidEmail(userData.Email) {
 			return nil, fmt.Errorf("invalid email format")
 		}
 		existingUser.Email = userData.Email
 	}
+
 	if userData.Password != "" {
 		hashedPassword, err := bcrypt.GenerateFromPassword([]byte(userData.Password), bcrypt.DefaultCost)
 		if err != nil {
 			return nil, fmt.Errorf("failed to hash password: %v", err)
 		}
-		userData.Password = string(hashedPassword)
-	} else {
-		userData.Password = existingUser.Password
+		existingUser.Password = string(hashedPassword)
 	}
 
-	userData.UpdatedAt = time.Now()
-	updatedUser, err := us.repository.UpdateUserByID(id, userData)
+	updatedUser, err := us.repository.UpdateUserByID(id, existingUser)
 	if err != nil {
 		return nil, err
 	}

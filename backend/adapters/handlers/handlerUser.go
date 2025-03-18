@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
+	"orderkuota/domain"
 	"orderkuota/dto"
 	"orderkuota/middleware"
 	ports "orderkuota/ports/service"
@@ -177,21 +178,29 @@ func (uh *UserHandler) UpdateUserByID(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	updatedData := domain.User{
+		ID:    existingUser.ID,
+		Name:  existingUser.Name,
+		Email: existingUser.Email,
+	}
+
 	if updateDTO.Email != nil {
 		if !utils.IsValidEmail(*updateDTO.Email) {
 			utils.ErrorResponse(w, http.StatusBadRequest, "failed", "Invalid email format")
 			return
 		}
-		existingUser.Email = *updateDTO.Email
-	}
-	if updateDTO.Name != nil {
-		existingUser.Name = *updateDTO.Name
-	}
-	if updateDTO.Password != nil {
-		existingUser.Password = *updateDTO.Password
+		updatedData.Email = *updateDTO.Email
 	}
 
-	updatedUser, err := uh.Service.UpdateUserByID(id, existingUser)
+	if updateDTO.Name != nil {
+		updatedData.Name = *updateDTO.Name
+	}
+
+	if updateDTO.Password != nil && *updateDTO.Password != "" {
+		updatedData.Password = *updateDTO.Password
+	}
+
+	updatedUser, err := uh.Service.UpdateUserByID(id, &updatedData)
 	if err != nil {
 		utils.ErrorResponse(w, http.StatusInternalServerError, "failed", err.Error())
 		return

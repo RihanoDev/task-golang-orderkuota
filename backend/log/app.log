@@ -379,3 +379,63 @@
 {"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T20:54:13+07:00","message":"Response Success sent successfully"}
 {"level":"info","status":"success","code":200,"message":"User deleted successfully","time":"2025-03-18T20:54:17+07:00","message":"Response Success sent successfully"}
 {"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-18T20:54:17+07:00","message":"Response Success sent successfully"}
+{"level":"info","time":"2025-03-19T05:25:40+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-19T05:25:40+07:00","message":"Database connected successfully"}
+{"level":"info","time":"2025-03-19T05:25:55+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-19T05:25:55+07:00","message":"Database connected successfully"}
+{"level":"info","status":"failed","code":400,"message":"Password cannot be empty","time":"2025-03-19T05:26:15+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":400,"message":"Password must be at least 6 characters","time":"2025-03-19T05:26:23+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-19T05:26:28+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:26:46+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:26:46+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-19T05:26:54+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:26:54+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:27:00+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:27:00+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-19T05:27:05+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:27:05+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:27:09+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:27:18+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:27:32+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":400,"message":"Invalid email format","time":"2025-03-19T05:28:34+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:28:41+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:29:04+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:29:10+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:29:13+07:00","message":"Response Error sent successfully"}
+{"level":"info","time":"2025-03-19T05:40:53+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-03-19T05:40:53+07:00","message":"Database connected successfully"}
+{"level":"info","status":"success","code":201,"message":"User registered","time":"2025-03-19T05:40:59+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":400,"message":"Invalid email format","time":"2025-03-19T05:41:09+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":400,"message":"Invalid email format","time":"2025-03-19T05:41:16+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":400,"message":"Invalid email format","time":"2025-03-19T05:41:22+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:41:25+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:41:45+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":400,"message":"Password cannot be empty","time":"2025-03-19T05:42:11+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":400,"message":"Invalid email format","time":"2025-03-19T05:42:21+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:42:28+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:42:35+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:42:40+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-19T05:42:51+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:42:57+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":400,"message":"Password cannot be empty","time":"2025-03-19T05:43:07+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:43:13+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:43:19+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-19T05:43:32+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:43:40+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":400,"message":"Password cannot be empty","time":"2025-03-19T05:43:54+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:44:02+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:44:07+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:44:36+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:44:36+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-19T05:44:53+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:44:53+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:44:59+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:45:01+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:45:07+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:45:11+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"failed","code":401,"message":"Invalid credentials","time":"2025-03-19T05:45:14+07:00","message":"Response Error sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:47:31+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:47:31+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"User updated successfully","time":"2025-03-19T05:47:47+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Users retrieved successfully","time":"2025-03-19T05:47:47+07:00","message":"Response Success sent successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-03-19T05:48:05+07:00","message":"Response Success sent successfully"}

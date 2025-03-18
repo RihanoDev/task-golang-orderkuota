@@ -95,7 +95,9 @@ export default {
         const token = sessionStorage.getItem("token");
         const updateData = { ...this.editedUser };
 
-        if (!updateData.password) delete updateData.password;
+        if (!updateData.password) {
+          delete updateData.password;
+        }
 
         await axios.put(`http://localhost:9090/api/users/${this.editedUser.id}`, updateData, {
           headers: { Authorization: `Bearer ${token}` },

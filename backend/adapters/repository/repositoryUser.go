@@ -88,10 +88,20 @@ func (ur *UserRepositoryAdapter) GetUserByEmail(email string) (*domain.User, err
 }
 
 func (ur *UserRepositoryAdapter) UpdateUserByID(id string, userData *domain.User) (*domain.User, error) {
-	query := `UPDATE users SET name = ?, email = ?, password = ? WHERE id = ?`
-	_, err := ur.DB.Exec(query, userData.Name, userData.Email, userData.Password, id)
+	var query string
+	var args []interface{}
+
+	if userData.Password == "" {
+		query = `UPDATE users SET name = ?, email = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?`
+		args = []interface{}{userData.Name, userData.Email, id}
+	} else {
+		query = `UPDATE users SET name = ?, email = ?, password = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?`
+		args = []interface{}{userData.Name, userData.Email, userData.Password, id}
+	}
+
+	_, err := ur.DB.Exec(query, args...)
 	if err != nil {
-		return nil, fmt.Errorf("failed to update user data: %v", err)
+		return nil, fmt.Errorf("failed to update user data : %v", err)
 	}
 
 	return userData, nil
