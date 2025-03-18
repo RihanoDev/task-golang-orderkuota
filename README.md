@@ -45,6 +45,7 @@ orderkuota/
 │
 │── README.md           # Dokumentasi proyek
 │── orderkuota.postman_collection.json # Dokumentasi API di Postman
+```
 
 # ⚙️ Teknologi yang Digunakan
 
@@ -124,7 +125,6 @@ UI akan berjalan di [http://localhost:8081](http://localhost:8081)
 |--------|----------------------|---------------------------------------|
 | GET    | /api/users           | Mendapatkan semua user                |
 | GET    | /api/users/:id      | Mendapatkan user berdasarkan ID       |
-| POST   | /api/users           | Menambahkan user baru                  |
 | PUT    | /api/users/:id      | Memperbarui data user                 |
 | DELETE | /api/users/:id      | Menghapus user berdasarkan ID          |
 
