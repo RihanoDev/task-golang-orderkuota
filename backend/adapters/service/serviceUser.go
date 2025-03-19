@@ -6,7 +6,6 @@ import (
 	ports "orderkuota/ports/repository"
 	"orderkuota/utils"
 	"regexp"
-	"time"
 
 	"github.com/google/uuid"
 	"golang.org/x/crypto/bcrypt"
@@ -47,8 +46,6 @@ func (us *UserServiceAdapter) RegisterUser(userData *domain.User) (*domain.User,
 
 	userData.ID = uuid.New().String()
 	userData.Password = string(hashedPassword)
-	userData.CreatedAt = time.Now()
-	userData.UpdatedAt = time.Now()
 
 	user, err := us.repository.CreateUser(userData)
 	if err != nil {

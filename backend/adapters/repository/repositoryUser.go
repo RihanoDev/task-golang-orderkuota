@@ -18,13 +18,13 @@ func NewUserRepository(db *sql.DB) ports.UserRepository {
 }
 
 func (ur *UserRepositoryAdapter) CreateUser(userData *domain.User) (*domain.User, error) {
-	query := `INSERT INTO users(id, name, email, password, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?)`
-	_, err := ur.DB.Exec(query, userData.ID, userData.Name, userData.Email, userData.Password, userData.CreatedAt, userData.UpdatedAt)
+	query := `INSERT INTO users(id, name, email, password) VALUES (?, ?, ?, ?)`
+	_, err := ur.DB.Exec(query, userData.ID, userData.Name, userData.Email, userData.Password)
 	if err != nil {
 		return nil, fmt.Errorf("failed to create a new user: %v", err)
 	}
 
-	return userData, nil
+	return ur.GetUserByID(userData.ID)
 }
 
 func (ur *UserRepositoryAdapter) GetAllUsers() ([]domain.User, error) {
@@ -104,7 +104,12 @@ func (ur *UserRepositoryAdapter) UpdateUserByID(id string, userData *domain.User
 		return nil, fmt.Errorf("failed to update user data : %v", err)
 	}
 
-	return userData, nil
+	updatedUser, err := ur.GetUserByID(id)
+	if err != nil {
+		return nil, err
+	}
+
+	return updatedUser, nil
 }
 
 func (ur *UserRepositoryAdapter) DeleteUserByID(id string) error {

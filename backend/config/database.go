@@ -18,7 +18,7 @@ func InitDB() (*sql.DB, error) {
 	var err error
 	once.Do(func() {
 		LoadENV()
-		dsnWithoutDB := fmt.Sprintf("%s:%s@tcp(%s:%s)/?parseTime=true",
+		dsnWithoutDB := fmt.Sprintf("%s:%s@tcp(%s:%s)/?parseTime=true&loc=Asia%%2FJakarta",
 			GetConfig("DB_USERNAME"),
 			GetConfig("DB_PASSWORD"),
 			GetConfig("DB_HOST"),

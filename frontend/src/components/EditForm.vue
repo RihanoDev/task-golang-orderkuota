@@ -64,6 +64,7 @@ export default {
         alert("User berhasil diperbarui!");
         this.$emit("updated");
         this.closeModal();
+        this.fetchUsers();
       } catch (error) {
         console.error("Gagal memperbarui user", error);
         alert("Gagal memperbarui user!");
@@ -71,6 +72,12 @@ export default {
     },
     closeModal() {
       this.$emit("close");
+    },
+    fetchUsers() {
+    axios.get("/api/users")
+      .then((response) => {
+        this.users = response.data;
+      });
     },
   },
 };
