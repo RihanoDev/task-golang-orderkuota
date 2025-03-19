@@ -19,7 +19,7 @@ Selain itu, proyek ini juga menyediakan **UI dengan Vue.js** untuk mempermudah i
 ## 🏗️ Struktur Proyek  
 
 ```plaintext
-orderkuota/
+task-golang-orderkuota/
 │── backend/            # Kode backend (Golang)
 │   ├── adapters/       # Adapter untuk repository & service
 │   ├── config/         # Konfigurasi aplikasi
@@ -104,7 +104,7 @@ Setelah itu, jalankan migrasi database dengan perintah:
 
 ```sh
 cd backend
-migrate -database "mysql://root:password@tcp(localhost:3306)/orderkuota" -path migrations up
+migrate -database "mysql://root:password@tcp(localhost:3306)/users" -path migrations up
 ```
 
 Pastikan mengganti username, password MySQL, dan port sesuai dengan kredensial di .env/setup lokal pc.
